@@ -1,10 +1,5 @@
-- name: ensure apache is running
-    service:
-      name: httpd
-      state: started
-
-  handlers:
-    - name: restart apache
-      service:
-        name: httpd
-        state: restarted
+# An employee record
+martin:
+  name: Martin D'vloper
+  job: Developer
+  skill: Elited
